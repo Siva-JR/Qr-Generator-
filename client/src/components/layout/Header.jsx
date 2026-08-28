@@ -10,7 +10,7 @@ function Header() {
           </div>
 
           <div>
-            <h1 className="text-3xl font-bold">QuickQR Vault</h1>
+            <h1 className="text-3xl font-bold">TN QR</h1>
             <p className="text-blue-100 text-sm">
               Secure QR-Based File Sharing
             </p>
