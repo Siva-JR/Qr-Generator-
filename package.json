@@ -1,0 +1,7 @@
+{
+  "name": "qr-vault",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "npm --prefix client run build", "dev": "npm --prefix client run dev" },
+  "dependencies": { "formidable": "^3.5.4", "googleapis": "^148.0.0" }
+}

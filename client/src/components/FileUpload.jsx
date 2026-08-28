@@ -34,13 +34,15 @@ function FileUpload() {
     try {
       setLoading(true);
 
-      const response = await api.post("/files/upload", formData);
+      const response = await api.post("/upload", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
 
       setFileUrl(response.data.fileUrl);
       toast.success("File uploaded successfully!");
     } catch (error) {
       console.error(error);
-      toast.error("Upload failed");
+      toast.error(error.response?.data?.message || "Upload failed");
     } finally {
       setLoading(false);
     }

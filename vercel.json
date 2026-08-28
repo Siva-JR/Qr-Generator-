@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "devCommand": "npm --prefix client run dev -- --host 0.0.0.0",
+  "outputDirectory": "client/dist",
+  "functions": { "api/upload.js": { "maxDuration": 60 } }
+}
