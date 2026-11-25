@@ -16,7 +16,7 @@ function QRDisplay({ fileUrl }) {
     const canvas = await html2canvas(qrRef.current);
 
     const link = document.createElement("a");
-    link.download = "quickqr-code.png";
+    link.download = "tnqr-code.png";
     link.href = canvas.toDataURL();
     link.click();
 

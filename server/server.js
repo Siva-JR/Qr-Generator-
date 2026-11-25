@@ -27,7 +27,7 @@ mongoose
 // Home Route
 app.get("/", (req, res) => {
   res.json({
-    message: "QuickQR Vault Backend Running 🚀",
+    message: "TNQR Backend Running 🚀",
   });
 });
 
