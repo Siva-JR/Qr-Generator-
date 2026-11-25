@@ -1,4 +1,4 @@
-# QR Vault Upload Plan
+# TNQR Upload Plan
 
 ## Goal
 
